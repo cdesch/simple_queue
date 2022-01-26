@@ -23,3 +23,4 @@ be found at <https://hexdocs.pm/simple_queue>.
 Resources:
 
  - https://samuelmullen.com/articles/elixir-processes-testing/
+ - https://blog.appsignal.com/2021/08/23/using-supervisors-to-organize-your-elixir-application.html
