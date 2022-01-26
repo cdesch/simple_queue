@@ -21,6 +21,5 @@ defmodule SimpleQueue do
     children = Supervisor.which_children(SimpleQueue.CounterSup)
     pids = Enum.map(children, fn(x) -> elem(x, 1) end)
     Enum.each(pids, fn(x) -> IO.inspect(SimpleQueue.Counter.get(x)) end)
-    IO.inspect pids
   end
 end
